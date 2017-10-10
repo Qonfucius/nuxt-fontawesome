@@ -14,6 +14,9 @@
     "nuxtJS",
     "fontawesome"
   ],
+  "eslintIgnore": [
+    "plugin.js"
+  ],
   "author": "Qonfucius",
   "license": "GPL-3.0",
   "bugs": {
@@ -27,5 +30,11 @@
     "eslint-plugin-html": "^3.2.2",
     "eslint-plugin-import": "^2.7.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@fortawesome/fontawesome": "0.0.17",
+    "@fortawesome/vue-fontawesome": "0.0.15"
+  },
+  "peerDependencies": {
+    "vue": "2.x.x"
+  }
 }
