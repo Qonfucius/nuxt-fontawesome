@@ -1,0 +1,31 @@
+{
+  "name": "qonfucius-nuxt-fontawesome",
+  "version": "0.0.1",
+  "description": "NuxtJS fontawesome modle",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qonfucius/nuxt-fontawesome.git"
+  },
+  "keywords": [
+    "nuxtJS",
+    "fontawesome"
+  ],
+  "author": "Qonfucius",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Qonfucius/nuxt-fontawesome/issues"
+  },
+  "homepage": "https://github.com/Qonfucius/nuxt-fontawesome#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "dependencies": {}
+}
