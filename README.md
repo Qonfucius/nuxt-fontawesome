@@ -50,7 +50,7 @@ Default: `[]`
 
 Packs to configure, with the list of icons to include in the project.
 
-#### Exemple
+#### Example
 
 - Add `@fortawesome/fontawesome-free-brands` as dependency
 - Add configuration like this in `nuxt.config.js`
