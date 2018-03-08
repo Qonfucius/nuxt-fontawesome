@@ -1,0 +1,16 @@
+{
+  "description": "Nuxt.js project",
+  "author": "Gaël <gael@demette.fr>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free-brands": "^5.0.8",
+    "nuxt": "^1.0.0",
+    "qonfucius-nuxt-fontawesome": "0.0.1"
+  }
+}
