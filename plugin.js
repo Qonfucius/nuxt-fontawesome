@@ -5,7 +5,7 @@ import FontAwesomeIcon from '@fortawesome/vue-fontawesome';
   <% if (icons) { %>
     import  { <%=icons.join(',')%> } from '<%=package%>';
   <% } else { %>
-    import <%=package.split(/[\s\/]+/).replace(/-/g, "")%> from '<%=package%>';
+    import <%=package.split(/[\s\/]+/)[1].replace(/-/g, "")%> from '<%=package%>';
   <% } %>
 <% }) %>
 
@@ -13,7 +13,7 @@ import FontAwesomeIcon from '@fortawesome/vue-fontawesome';
 <% if (icons) { %>
     fontawesome.library.add(<%=icons.join(',')%>);
   <% } else { %>
-    fontawesome.library.add(<%=package.split(/[\s\/]+/).replace(/-/g, "")%>);
+    fontawesome.library.add(<%=package.split(/[\s\/]+/)[1].replace(/-/g, "")%>);
   <% } %>
 <% }) %>
 
