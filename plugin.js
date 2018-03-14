@@ -1,9 +1,12 @@
 import Vue from 'vue'; // eslint-disable-line
 import fontawesome from '@fortawesome/fontawesome';
 import FontAwesomeIcon from '@fortawesome/vue-fontawesome';
+
 <% options.packs.forEach(({package, icons}) => { %>
   <% if (icons) { %>
-    import  { <%=icons.join(',')%> } from '<%=package%>';
+    <% icons.forEach((icon) => { %>
+      import <%=icon%> from '<%=package%>/<%=icon%>';
+    <% }) %>
   <% } else { %>
     import <%=package.split(/[\s\/]+/)[1].replace(/-/g, "")%> from '<%=package%>';
   <% } %>
