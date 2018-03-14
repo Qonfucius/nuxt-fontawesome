@@ -2,6 +2,10 @@
 
 > With Nuxt Font Awesome 5 you can easily use 
 
+## Should I use this module in production ?
+
+Probably not. We don't have any unit test, and this module has not reached the 1.x.x maturity.
+
 ## Setup
 - Add `qonfucius-nuxt-fontawesome` dependency using yarn or npm to your project
 - Add `qonfucius-nuxt-fontawesome` to `modules` section of `nuxt.config.js`
