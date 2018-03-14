@@ -73,3 +73,7 @@ Packs to configure, with the list of icons to include in the project.
   <fa-icon pack="fab" name="github" />
 </template>
 ```
+
+## Contributors
+
+Thank you to all our [contributors](https://github.com/Qonfucius/nuxt-fontawesome/graphs/contributors)!
