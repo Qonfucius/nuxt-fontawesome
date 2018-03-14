@@ -6,11 +6,11 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-brands": "^5.0.8",
     "nuxt": "^1.0.0",
-    "qonfucius-nuxt-fontawesome": "0.0.1"
+    "qonfucius-nuxt-fontawesome": "^0.0.2"
   }
 }
