@@ -18,7 +18,7 @@ Probably not. We don't have any unit test, and this module has not reached the 1
     'qonfucius-nuxt-fontawesome',
     
     // With options
-    ['qonfucius-nuxt-fontawesome', { componentName: 'fa-icon', packs: [] }],
+    ['qonfucius-nuxt-fontawesome', { componentName: 'fa-icon', packs: [], includeCss: true }],
   ]
 }
 ````
@@ -48,6 +48,11 @@ Probably not. We don't have any unit test, and this module has not reached the 1
 Default: `fa-icon`
 
 Component name
+
+### `includeCss`
+Default: `true`
+
+If you are already including fontawesome css somewhere in your code (sass ?), please pass false !
 
 ### `packs`
 Default: `[]`
