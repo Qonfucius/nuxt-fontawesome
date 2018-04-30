@@ -1,7 +1,7 @@
 <template>
   <main>
     <h1>A simple working example</h1>
-    <fa-icon pack="fab" name="vuejs" />
+    <fa-icon :icon="['fab', 'vuejs']" />
   </main>
 </template>
 
