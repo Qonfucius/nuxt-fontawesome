@@ -12,6 +12,10 @@ import FontAwesomeIcon from '@fortawesome/vue-fontawesome';
   <% } %>
 <% }) %>
 
+fontawesome.config = {
+  autoAddCss: false,
+};
+
 <% options.packs.forEach(({package, icons}) => { %>
 <% if (icons) { %>
     fontawesome.library.add(<%=icons.join(',')%>);

@@ -1,6 +1,6 @@
 {
   "name": "qonfucius-nuxt-fontawesome",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NuxtJS fontawesome module",
   "main": "index.js",
   "scripts": {
@@ -24,14 +24,14 @@
   },
   "homepage": "https://github.com/Qonfucius/nuxt-fontawesome#readme",
   "devDependencies": {
-    "babel-eslint": "^8.2.2",
-    "eslint": "^4.18.2",
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-html": "^4.0.2",
-    "eslint-plugin-import": "^2.9.0"
+    "eslint-plugin-html": "^4.0.3",
+    "eslint-plugin-import": "^2.11.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.4",
+    "@fortawesome/fontawesome": "^1.1.5",
     "@fortawesome/vue-fontawesome": "^0.0.22"
   },
   "peerDependencies": {
