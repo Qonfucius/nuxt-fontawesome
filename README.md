@@ -26,18 +26,18 @@ Probably not. We don't have any unit test, and this module has not reached the 1
 ## Usage
 ```vue
 <template>
-  <fa-icon pack="fab" name="font-awesome" />
-  <fa-icon pack="fas" name="coffee" />
-  <fa-icon pack="fas" name="cog" :spin="true" :fixed-width="false" />
-  <fa-icon pack="fab" name="fort-awesome" size="4x" />
-  <fa-icon pack="fas" name="spinner" :pulse="true" :fixed-width="true" />
-  <fa-icon pack="fab" name="fort-awesome" :rotation="90" />
-  <fa-icon pack="fab" name="internet-explorer" flip="both" />
+  <fa-icon :icon="['fab', 'font-awesome']" />
+  <fa-icon :icon="['fas', 'coffee']" />
+  <fa-icon :icon="['fas', 'cog']" :spin="true" :fixed-width="false" />
+  <fa-icon :icon="['fab', 'fort-awesome']" size="4x" />
+  <fa-icon :icon="['fas', 'spinner']" :pulse="true" :fixed-width="true" />
+  <fa-icon :icon="['fab', 'fort-awesome']" :rotation="90" />
+  <fa-icon :icon="['fab', 'internet-explorer']" flip="both" />
   <ul class="fa-ul">
-    <li><fa-icon pack="fas" name="check-square" :list-item="true" />List icons</li>
-    <li><fa-icon pack="fas" name="check-square" :list-item="true" />can be used</li>
-    <li><fa-icon pack="fas" name="square" :list-item="true" />as bullets</li>
-    <li><fa-icon pack="fas" name="square" :list-item="true" />in lists</li>
+    <li><fa-icon :icon="['fas', 'check-square']" :list-item="true" />List icons</li>
+    <li><fa-icon :icon="['fas', 'check-square']" :list-item="true" />can be used</li>
+    <li><fa-icon :icon="['fas', 'square']" :list-item="true" />as bullets</li>
+    <li><fa-icon :icon="['fas', 'square']" :list-item="true" />in lists</li>
   </ul>
 </template>
 ```
@@ -61,14 +61,14 @@ Packs to configure, with the list of icons to include in the project.
 
 #### Example
 
-- Add `@fortawesome/fontawesome-free-brands` as dependency
+- Add `@fortawesome/free-brands-svg-icons` as dependency
 - Add configuration like this in `nuxt.config.js`
 ```js
 {
   fontAwesome: {
     packs: [
       {
-        package: '@fortawesome/fontawesome-free-brands',
+        package: '@fortawesome/free-brands-svg-icons',
         icons: ['faGithub', 'faFontAwesome'],
       },
     ],
@@ -78,8 +78,8 @@ Packs to configure, with the list of icons to include in the project.
 - Use it in template
 ```vue
 <template>
-  <fa-icon pack="fab" name="font-awesome" />
-  <fa-icon pack="fab" name="github" />
+  <fa-icon :icon="['fab', 'font-awesome']" />
+  <fa-icon :icon="['fab', 'github']" />
 </template>
 ```
 

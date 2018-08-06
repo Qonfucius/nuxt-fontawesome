@@ -9,7 +9,7 @@ module.exports = async function nuxtFontAwesome(moduleOptions) {
   const options = Object.assign(defaultOptions, this.options.fontAwesome, moduleOptions);
 
   if (options.includeCss) {
-    this.options.css.push('@fortawesome/fontawesome/styles.css');
+    this.options.css.push('@fortawesome/fontawesome-svg-core/styles.css');
   }
 
   this.addPlugin({
