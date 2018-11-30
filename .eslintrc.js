@@ -7,9 +7,7 @@ module.exports = {
   },
   extends: 'airbnb-base',
   // required to lint *.vue files
-  plugins: [
-    'html',
-  ],
+  plugins: [],
   // add your custom rules here
   rules: {
     'import/no-dynamic-require': 0,
